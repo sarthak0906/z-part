@@ -36,7 +36,7 @@ export default function ButtonAppBar(props) {
           </Typography>
           <Button color="inherit" onClick={() => {history.push("/New")}} >New Snippet</Button>
           <Button color="inherit" onClick={() => {history.push("/Snips")}} >Snippet</Button>
-          <Button color="inherit" onClick={() => {history.push("/Frame")}} >Framework</Button>
+          <Button color="inherit" onClick={() => {history.push("/Edit")}} >Edit Snippet</Button>
         </Toolbar>
       </AppBar>
     </div>
